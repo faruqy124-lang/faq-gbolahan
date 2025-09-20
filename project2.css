@@ -1,0 +1,105 @@
+.header{
+      display: flex;
+      height: 70px;
+      color: white;
+      background-color: black;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 30px;
+}
+.body{
+  font-size: 40px;  
+  color: rgb(226, 79, 26);  
+  font-family:cursive;
+}
+.menu{
+      display: flex;
+      flex-direction: row;
+      width: 1300px;
+      padding: 20px 10px;
+      height: 30px;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-bar{
+      height: 30px;
+      background-color: rgba(247, 240, 240, 0.986);
+      border: 1px solid gray;
+}
+.search{
+      color: white;
+      background-color: rgb(226, 79, 26); 
+      padding: 1px 20px;
+      font-size: 15px;
+      border: inherit;
+      margin-right: 50px;
+      transition: 0.15s;
+}
+.menu-tag{
+      cursor: pointer;
+}
+.menu-tag:hover{
+      color: white;
+      background-color: gray;
+      padding: 15px 20px;
+}
+.search:hover{
+      color: white;
+      background-color: rgb(206, 79, 26);
+      cursor: pointer;
+}
+.input-bar::placeholder{
+      padding-left: 15px;
+      font-family: cursive;
+      color: black;
+}
+.background{
+      position: fixed;
+      top: 70.4px;
+      right: 0;
+}
+.background-body{
+      position: relative;
+}
+.content{
+      position:absolute;
+      color: white;
+      top: 350px;
+      left: 30px;
+}
+.title{
+      font-size: 50px;
+      font-family: cursive;
+      color:  rgb(206, 79, 26);
+      font-weight: bold;
+}
+.company-sub{
+      font-size: 20px;
+      width: 550px;
+      line-height: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+      color: white;
+      background-color: rgb(206, 79, 26);
+      padding: 10px 20px;
+      border: none;
+      border-radius:2px;
+      cursor: pointer;
+      transition: 0.15s;
+      margin-top: 30px;
+}
+.button:hover{
+      color: white;
+      background-color:rgb(139, 48, 9);
+}
+a{
+      color: white;
+      text-decoration-line:none;
+}
